@@ -1,8 +1,14 @@
-module github.com/go-acme/lego/v4
+module github.com/ChintuIdrive/lego/v4
+
+//module github.com/go-acme/lego/v4
 
 go 1.21
 
 // github.com/exoscale/egoscale v1.19.0 => It is an error, please don't use it.
+require github.com/go-acme/lego/v4 v4.15.0
+
+//github.com/go-acme/lego/v4 => github.com/ChintuIdrive/lego/v4 v4.15.0
+replace github.com/go-acme/lego/v4 v4.15.0 => github.com/ChintuIdrive/lego/v4 v4.15.1
 
 require (
 	cloud.google.com/go/compute/metadata v0.2.3
@@ -150,7 +156,6 @@ require (
 	github.com/sacloud/go-http v0.1.6 // indirect
 	github.com/sacloud/packages-go v0.0.9 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
-	github.com/smartystreets/assertions v1.0.1 // indirect
 	github.com/smartystreets/go-aws-auth v0.0.0-20180515143844-0c1422d1fdb9 // indirect
 	github.com/softlayer/xmlrpc v0.0.0-20200409220501-5f089df7cb7e // indirect
 	github.com/spf13/cast v1.3.1 // indirect
