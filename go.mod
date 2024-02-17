@@ -8,7 +8,7 @@ go 1.21
 require github.com/go-acme/lego/v4 v4.15.0
 
 //github.com/go-acme/lego/v4 => github.com/ChintuIdrive/lego/v4 v4.15.0
-replace github.com/go-acme/lego/v4 v4.15.0 => github.com/ChintuIdrive/lego/v4 v4.15.0
+replace github.com/go-acme/lego/v4 v4.15.0 => github.com/ChintuIdrive/lego/v4 v4.15.1
 
 require (
 	cloud.google.com/go/compute/metadata v0.2.3
