@@ -110,6 +110,7 @@ func NewCertifier(core *api.Core, resolver resolver, options CertifierOptions) *
 //
 // This function will never return a partial certificate.
 // If one domain in the list fails, the whole certificate will fail.
+// provide path to save authorization links
 func (c *Certifier) Obtain(request ObtainRequest) (*Resource, error) {
 	if len(request.Domains) == 0 {
 		return nil, errors.New("no domains to obtain a certificate for")
