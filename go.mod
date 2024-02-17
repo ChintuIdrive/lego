@@ -1,14 +1,14 @@
-module github.com/ChintuIdrive/lego/v4
+//module github.com/ChintuIdrive/lego/v4
 
-//module github.com/go-acme/lego/v4
+module github.com/go-acme/lego/v4
 
 go 1.21
 
 // github.com/exoscale/egoscale v1.19.0 => It is an error, please don't use it.
-require github.com/go-acme/lego/v4 v4.15.0
+// require github.com/go-acme/lego/v4 v4.15.0
 
-//github.com/go-acme/lego/v4 => github.com/ChintuIdrive/lego/v4 v4.15.0
-replace github.com/go-acme/lego/v4 v4.15.0 => github.com/ChintuIdrive/lego/v4 v4.15.1
+// //github.com/go-acme/lego/v4 => github.com/ChintuIdrive/lego/v4 v4.15.0
+// replace github.com/go-acme/lego/v4 v4.15.0 => github.com/ChintuIdrive/lego/v4 v4.15.1
 
 require (
 	cloud.google.com/go/compute/metadata v0.2.3
